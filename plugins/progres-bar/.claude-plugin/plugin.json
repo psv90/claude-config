@@ -1,0 +1,1 @@
+{ "name": "progres-bar", "version": "0.5.0", "description": "Pasek ładowania nad promptem: procent, etap X z Y, krok w toku i szacowany czas do końca.", "types": "./types/index.d.ts" }

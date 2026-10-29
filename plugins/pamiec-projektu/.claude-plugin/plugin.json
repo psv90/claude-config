@@ -1,0 +1,10 @@
+{
+  "name": "pamiec-projektu",
+  "version": "0.6.0",
+  "description": "Gdy praca dotyczy projektu z folderu z projektami, pasek nad promptem pokazuje jego notatkę z pamięci Claude'a; „więcej” rozwija całość.",
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "projekty": { "type": "string", "title": "Folder z projektami", "description": "Puste: podfolder Projekty folderu, w którym pracujesz.", "default": "" },
+    "pamiec": { "type": "string", "title": "Folder notatek pamięci", "description": "Puste: pamięć Claude'a dla folderu, w którym pracujesz.", "default": "" }
+  }
+}

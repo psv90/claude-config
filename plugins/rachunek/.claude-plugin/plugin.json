@@ -1,0 +1,1 @@
+{ "name": "rachunek", "version": "0.1.0", "description": "/rachunek: ile kosztowała rozmowa, w podziale na tury, z najdroższą turą i najcięższym odczytem.", "types": "./types/index.d.ts" }

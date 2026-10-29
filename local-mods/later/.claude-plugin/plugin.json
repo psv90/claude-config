@@ -1,0 +1,6 @@
+{
+  "name": "later",
+  "version": "0.15.1",
+  "description": "Notatnik promptów na później, osobny dla każdego projektu: /later",
+  "types": "./types/index.d.ts"
+}

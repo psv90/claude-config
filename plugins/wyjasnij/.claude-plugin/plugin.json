@@ -1,0 +1,6 @@
+{
+  "name": "wyjasnij",
+  "version": "0.4.1",
+  "description": "Wyjaśnia po polsku, krok po kroku, co Claude właśnie zrobił, i uczy kilku słów technicznych. Na podstawie ruthannbravo/explain-it.",
+  "types": "./types/index.d.ts"
+}

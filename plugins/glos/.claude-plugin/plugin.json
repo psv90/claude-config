@@ -1,0 +1,8 @@
+{
+  "name": "glos",
+  "version": "0.1.0",
+  "description": "Po długiej turze czyta na głos (polski głos Windowsa) krótkie streszczenie odpowiedzi. /glos włącza i wyłącza.",
+  "userConfig": {
+    "minSeconds": { "type": "number", "title": "Od ilu sekund tury", "description": "Tury krótsze niż tyle sekund nie są czytane.", "default": 120 }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "name": "local-mods",
+  "owner": { "name": "Olek" },
+  "plugins": [
+    { "name": "later", "source": "./", "description": "Notatnik promptów na później, osobny dla każdego projektu: /later" }
+  ]
+}

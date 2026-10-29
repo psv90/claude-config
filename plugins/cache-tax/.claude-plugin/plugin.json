@@ -1,0 +1,20 @@
+{
+  "name": "cache-tax",
+  "version": "0.1.0",
+  "description": "Podtrzymuje ciepły cache w przerwach i raz zatrzymuje zimne wysłanie, pokazując jego szacowany koszt.",
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "warmEveryMinutes": {
+      "type": "number",
+      "title": "Rozgrzewanie co (min)",
+      "description": "Po ilu minutach ciszy podtrzymać cache. Musi być mniej niż 60.",
+      "default": 50
+    },
+    "maxWarmups": {
+      "type": "number",
+      "title": "Maks. rozgrzań w przerwie",
+      "description": "Ile razy z rzędu podtrzymać cache, zanim mod odpuści.",
+      "default": 4
+    }
+  }
+}

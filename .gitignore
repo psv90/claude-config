@@ -1,0 +1,4 @@
+# private mods: installed locally from this folder, never pushed
+/plugins/straznik-vps
+/plugins/dziennik-dnia
+/plugins/porty

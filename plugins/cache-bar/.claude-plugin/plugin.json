@@ -1,0 +1,15 @@
+{
+  "name": "cache-bar",
+  "version": "0.3.5",
+  "description": "Kolorowa linia nad promptem: cache promptu, kontekst i limity planu, przycisk handoff powyżej 50% kontekstu.",
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "cacheTtl": {
+      "type": "string",
+      "title": "Czas życia cache",
+      "description": "Po ilu minutach bez odpowiedzi modelu cache promptu wygasa.",
+      "options": ["1h", "5m"],
+      "default": "1h"
+    }
+  }
+}

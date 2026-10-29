@@ -1,0 +1,6 @@
+{
+  "name": "co-dalej",
+  "version": "0.15.0",
+  "description": "Po zakończonym zadaniu Claude dopisuje trzy pytania z propozycjami usprawnień; klawisze 1-3 wysyłają wybrane.",
+  "types": "./types/index.d.ts"
+}

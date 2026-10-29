@@ -1,0 +1,68 @@
+{
+  "name": "mody-olka",
+  "owner": {
+    "name": "Olek"
+  },
+  "plugins": [
+    {
+      "name": "cache-bar",
+      "source": "./plugins/cache-bar",
+      "description": "Kolorowa linia nad promptem: cache promptu, kontekst i limity planu.",
+      "version": "0.1.8"
+    },
+    {
+      "name": "progres-bar",
+      "source": "./plugins/progres-bar",
+      "description": "Pasek ładowania nad promptem: procent, etap X z Y, krok w toku i szacowany czas do końca.",
+      "version": "0.4.7"
+    },
+    {
+      "name": "cache-tax",
+      "source": "./plugins/cache-tax",
+      "description": "Podtrzymuje ciepły cache w przerwach i raz zatrzymuje zimne wysłanie z jego kosztem.",
+      "version": "0.1.0"
+    },
+    {
+      "name": "wyjasnij",
+      "source": "./plugins/wyjasnij",
+      "description": "Wyjaśnia po polsku, co Claude właśnie zrobił, i uczy słów technicznych.",
+      "version": "0.3.3"
+    },
+    {
+      "name": "co-dalej",
+      "source": "./plugins/co-dalej",
+      "description": "Trzy pytania z propozycjami usprawnień pod zakończonym zadaniem, klawisze 1-3; × albo 2 pominięcia blokują propozycję w danym projekcie; panel z listą zablokowanych; brakujące dobiera do trzech.",
+      "version": "0.12.0"
+    },
+    {
+      "name": "rachunek",
+      "source": "./plugins/rachunek",
+      "description": "/rachunek: ile kosztowała rozmowa, w podziale na tury, z najdroższą turą i najcięższym odczytem.",
+      "version": "0.1.0"
+    },
+    {
+      "name": "glos",
+      "source": "./plugins/glos",
+      "description": "Po długiej turze czyta na głos (polski głos Windowsa) krótkie streszczenie odpowiedzi. /glos włącza i wyłącza.",
+      "version": "0.1.0"
+    },
+    {
+      "name": "spolszczacz",
+      "source": "./plugins/spolszczacz",
+      "description": "/spolszcz: postęp tłumaczenia gry w panelu (partie, słowa, ile zostało) i przycisk „następna partia”, który wznawia pracę.",
+      "version": "0.1.0"
+    },
+    {
+      "name": "pamiec-projektu",
+      "source": "./plugins/pamiec-projektu",
+      "description": "Gdy praca dotyczy projektu z folderu z projektami, pasek nad promptem pokazuje jego notatkę z pamięci Claude'a; „więcej” rozwija całość.",
+      "version": "0.6.0"
+    },
+    {
+      "name": "agenci",
+      "source": "./plugins/agenci",
+      "description": "Pasek nad promptem z agentami sesji: ekipa robotów, typ, zadanie, bieżąca czynność i czas; skończeni zostają.",
+      "version": "0.2.0"
+    }
+  ]
+}

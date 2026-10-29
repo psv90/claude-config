@@ -1,0 +1,1 @@
+{ "name": "agenci", "version": "0.2.3", "description": "Pasek nad promptem z agentami sesji: ekipa robotów, typ, zadanie, bieżąca czynność i czas; skończeni zostają.", "types": "./types/index.d.ts" }

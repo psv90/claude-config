@@ -1,0 +1,1 @@
+{ "name": "spolszczacz", "version": "0.1.0", "description": "/spolszcz: postęp tłumaczenia gry w panelu (partie, słowa, ile zostało) i przycisk „następna partia”, który wznawia pracę.", "types": "./types/index.d.ts" }
